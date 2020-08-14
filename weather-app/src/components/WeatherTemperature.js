@@ -1,9 +1,13 @@
 import React from 'react';
+import WeatherIcons from 'react-weathericons';
 
-const WeatherTemperature =() =>(
+const WeatherTemperature =({ temperature, weatherState}) =>(
     <div>
         <span>
-            25ºC
+            <WeatherIcons name='day-sunny' size="2x" />
+        </span>
+        <span>
+            {`${temperature} ºC`}
         </span>
     </div>
 );
