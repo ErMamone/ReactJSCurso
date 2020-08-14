@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import WeatherLocation from '/home/sysone/git/Curso React/weather-app/src/components/WeatherLocation';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Weather App(Aplicacion del clima)
+      <WeatherLocation/>
     </div>
   );
 }
